@@ -17,8 +17,8 @@
   2. IDM are used for storing username and password
 
 ## Design Document
-[Google Doc](https://docs.google.com/document/d/1yt_3F2Ka9OV3MDTRujEvXzsVgx5XhJJOEirQlSzVoHQ/edit?usp=sharing)
-[石墨文档](https://shimo.im/docs/w6cwWGrgkTQDTkkx/)
+  1. [Google Doc](https://docs.google.com/document/d/1yt_3F2Ka9OV3MDTRujEvXzsVgx5XhJJOEirQlSzVoHQ/edit?usp=sharing)
+  2. [石墨文档](https://shimo.im/docs/w6cwWGrgkTQDTkkx/)
 
 ## Demo Video
 
