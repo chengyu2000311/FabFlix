@@ -14,6 +14,11 @@
   5. [In case of error] If you run into a missing dependency error try `npm install` again then `npm start` if the problem persists manually install the dependency it is asking for.
 ### Backend:
   1. a [gateway](https://github.com/chengyu2000311/FabFlixGateway) connecting three parts: [idm(identity management)](https://github.com/chengyu2000311/FabFlixIDM), [movies data](https://github.com/chengyu2000311/FabFlixMovies), [billding data](https://github.com/chengyu2000311/FabFlixBilling)
+  2. IDM are used for storing username and password
+
+## Design Document
+[Google Doc](https://docs.google.com/document/d/1yt_3F2Ka9OV3MDTRujEvXzsVgx5XhJJOEirQlSzVoHQ/edit?usp=sharing)
+[石墨文档](https://shimo.im/docs/w6cwWGrgkTQDTkkx/)
 
 ## Demo Video
 
