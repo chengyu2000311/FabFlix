@@ -13,7 +13,7 @@
   4. Type `npm start` to start the server and you should have a window open with the front end
   5. [In case of error] If you run into a missing dependency error try `npm install` again then `npm start` if the problem persists manually install the dependency it is asking for.
 ### Backend:
-  1. a [gateway](https://github.com/chengyu2000311/FabFlixGateway) connectting three parts: [idm(identity management)](https://github.com/chengyu2000311/FabFlixIDM), [movies data](https://github.com/chengyu2000311/FabFlixMovies), [billding data](https://github.com/chengyu2000311/FabFlixBilling)
+  1. a [gateway](https://github.com/chengyu2000311/FabFlixGateway) connecting three parts: [idm(identity management)](https://github.com/chengyu2000311/FabFlixIDM), [movies data](https://github.com/chengyu2000311/FabFlixMovies), [billding data](https://github.com/chengyu2000311/FabFlixBilling)
 
 ## Demo Video
 
