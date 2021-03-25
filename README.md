@@ -14,7 +14,10 @@
   5. [In case of error] If you run into a missing dependency error try `npm install` again then `npm start` if the problem persists manually install the dependency it is asking for.
 ### Backend:
   1. a [gateway](https://github.com/chengyu2000311/FabFlixGateway) connecting three parts: [idm(identity management)](https://github.com/chengyu2000311/FabFlixIDM), [movies data](https://github.com/chengyu2000311/FabFlixMovies), [billding data](https://github.com/chengyu2000311/FabFlixBilling)
-  2. IDM are used for storing username and password
+  2. IDM are used for storing username and password.
+  3. Movies are used for storing movie information like overview, directors and image link.
+  4. billing data are used for connecting paypal gateway and storing user shopping history and cart.
+  5. gateway are used for connecting to three parts and enable multi-threads.
 
 ## Design Document
   1. [Google Doc](https://docs.google.com/document/d/1yt_3F2Ka9OV3MDTRujEvXzsVgx5XhJJOEirQlSzVoHQ/edit?usp=sharing)
