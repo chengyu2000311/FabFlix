@@ -6,11 +6,14 @@
 
 ## Setup instructions
 
-1. Download and install node.js - Current version: 13.1.0
-2. Type `npm` in your terminal to ensure you correctly installed node
-3. Type `npm install` within the root of this repo to install all the dependencies (This will take a while)
-4. Type `npm start` to start the server and you should have a window open with the front end
-5. [In case of error] If you run into a missing dependency error try `npm install` again then `npm start` if the problem persists manually install the dependency it is asking for.
+### Frontend:
+  1. Download and install node.js - Current version: 13.1.0
+  2. Type `npm` in your terminal to ensure you correctly installed node
+  3. Type `npm install` within the root of this repo to install all the dependencies (This will take a while)
+  4. Type `npm start` to start the server and you should have a window open with the front end
+  5. [In case of error] If you run into a missing dependency error try `npm install` again then `npm start` if the problem persists manually install the dependency it is asking for.
+### Backend:
+  1. a [gateway](https://github.com/chengyu2000311/FabFlixGateway) connectting three parts: [idm(identity management)](https://github.com/chengyu2000311/FabFlixIDM), [movies data](https://github.com/chengyu2000311/FabFlixMovies), [billding data](https://github.com/chengyu2000311/FabFlixBilling)
 
 ## Demo Video
 
