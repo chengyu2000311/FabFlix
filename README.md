@@ -20,8 +20,29 @@
   5. gateway are used for connecting to three parts and enable multi-threads.
 
 ## Design Document
-  1. [Google Doc](https://docs.google.com/document/d/1yt_3F2Ka9OV3MDTRujEvXzsVgx5XhJJOEirQlSzVoHQ/edit?usp=sharing)
-  2. [石墨文档](https://shimo.im/docs/w6cwWGrgkTQDTkkx/)
+  1. Overview: [using microservices architecture and RESTful APIs.](https://blog.dreamfactory.com/restful-api-and-microservices-the-differences-and-how-they-work-together/)
+  + Breaking down to 
+    + API Gateway
+        + Security and Load Balancing
+        + Enable multi-threading
+        + Using [HikariCP](https://github.com/brettwooldridge/HikariCP) as JDBC connection pool.
+    + Identity Management (IDM)
+        + User authentication and access control
+    + Movies Service
+        + Searching/Browsing movies
+    + Billing Service
+        + Purchasing, recording transactions, user personal information
+        + Using paypal for payment method
+  + Technologies used
+    + Java8
+    + Gradle - Build and dependency management
+    + Grizzly - a Java HTTP I/O framework
+    + Jersey - a Java RESTful API framework (connects URIs to Java code)
+    + JSON -- a language-independent data format derived from JavaScript
+    + Jackson -- conversion between JSON and Java Object
+
+  2. [Google Doc](https://docs.google.com/document/d/1yt_3F2Ka9OV3MDTRujEvXzsVgx5XhJJOEirQlSzVoHQ/edit?usp=sharing)
+  3. [石墨文档](https://shimo.im/docs/w6cwWGrgkTQDTkkx/)
 
 ## Demo Video
 
