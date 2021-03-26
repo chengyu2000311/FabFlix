@@ -7,15 +7,15 @@
 ## Design Structure
   1. Overview: [using microservices architecture and RESTful APIs.](https://blog.dreamfactory.com/restful-api-and-microservices-the-differences-and-how-they-work-together/)
   + Breaking down to 
-    + API Gateway
+    + [API Gateway](https://github.com/chengyu2000311/FabFlixGateway)
         + Security and Load Balancing
         + Enable multi-threading
         + Using [HikariCP](https://github.com/brettwooldridge/HikariCP) as JDBC connection pool.
-    + Identity Management (IDM)
+    + [Identity Management (IDM)](https://github.com/chengyu2000311/FabFlixIDM)
         + User authentication and access control
-    + Movies Service
+    + [Movies Service](https://github.com/chengyu2000311/FabFlixMovies)
         + Searching/Browsing movies
-    + Billing Service
+    + [Billing Service](https://github.com/chengyu2000311/FabFlixBilling)
         + Purchasing, recording transactions, user personal information
         + Using paypal for payment method
   + Technologies used
