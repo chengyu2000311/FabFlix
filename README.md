@@ -18,6 +18,7 @@
     + [Billing Service](https://github.com/chengyu2000311/FabFlixBilling)
         + Purchasing, recording transactions, user personal information
         + Using paypal for payment method
+    + [Diagrams](https://github.com/chengyu2000311/FabFlix/blob/main/visualize.png)
   + Technologies used
     + Java8
     + Gradle - Build and dependency management
